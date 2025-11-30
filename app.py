@@ -86,7 +86,7 @@ with st.sidebar:
     )
 
     st.markdown("---")
-    st.caption("Desarrollado por **Luis Campos** 💻")
+    st.caption("Desarrollado por **John Argandoña Acosta**")
 
 
 # ------------------ INTRODUCCIÓN ------------------
