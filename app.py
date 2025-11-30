@@ -88,7 +88,7 @@ MODELOS = {
 
 # ------------------ SIDEBAR ------------------
 with st.sidebar:
-    st.image("logo_iris.png", use_column_width=True)
+    st.image("cuy bcp.jpg", use_column_width=True)
 
     st.markdown("### 🌺 Iris Predictor")
     st.caption("Desplegado en Streamlit | Curso ISIL")
