@@ -221,8 +221,14 @@ elif pagina == "Modelos y desempeño":
 
     cm_df = pd.DataFrame(cm, index=etiquetas, columns=etiquetas)
     st.dataframe(cm_df)
+    
+    cm_long = (
+        cm_df
+        .reset_index()
+        .rename(columns={"index": "Real"})
+        .melt(id_vars="Real", var_name="Predicción", value_name="Muestras")
+    )
 
-    cm_long = cm_df.reset_index().melt(id_vars="Real", var_name="Predicción", value_name="Muestras")
 
     heatmap = (
         alt.Chart(cm_long)
