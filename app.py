@@ -111,7 +111,7 @@ with st.sidebar:
 if pagina == "Introducción":
 
     st.markdown('<div class="main-title">Iris Predictor v2 🌺</div>', unsafe_allow_html=True)
-    st.markdown('<div class="sub-title">Versión mejorada con diseño moderno y más visual</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sub-title">Modelos de Prediccion del dataset de IRIS</div>', unsafe_allow_html=True)
 
     col1, col2 = st.columns([1.6, 1])
 
