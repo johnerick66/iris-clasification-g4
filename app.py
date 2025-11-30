@@ -147,7 +147,7 @@ if pagina == "Introducción":
         '<div class="main-title">Iris Predictor v2 🌺</div>', unsafe_allow_html=True
     )
     st.markdown(
-        '<div class="sub-title">Modelos de Predicción del dataset Iris con análisis mejorado</div>',
+        '<div class="sub-title">Modelos de Predicción del dataset Iris del curso ISIL con BCP</div>',
         unsafe_allow_html=True,
     )
 
