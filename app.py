@@ -90,8 +90,8 @@ MODELOS = {
 with st.sidebar:
     st.image("logo_iris.png", use_column_width=True)
 
-    st.markdown("### 🌺 Iris Predictor v2")
-    st.caption("Nueva versión con diseño mejorado")
+    st.markdown("### 🌺 Iris Predictor")
+    st.caption("Desplegado en Streamlit | Curso ISIL")
 
     pagina = st.selectbox(
         "📌 Navegación",
